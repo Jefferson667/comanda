@@ -14,7 +14,7 @@ const ProductList: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center mt-8">
-      <div className="bg-white p-4 rounded shadow-lg">
+      <div className="bg-gray-300 p-4 rounded shadow-lg">
         <h2 className="text-xl font-semibold mb-4">Lista de Produtos</h2>
         <input
           type="text"
