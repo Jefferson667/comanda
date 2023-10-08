@@ -6,9 +6,9 @@ export default function Pagina1() {
       <main>
         <header className="justify-center flex">
           <Image
-            width={300}
-            height={300}
-            src="/pratocunha.jpeg"
+            width={2000}
+            height={500}
+            src="/card.jpg"
             alt="error"
           />
         </header>
