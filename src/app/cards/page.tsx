@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-export default function Footer() {
+export default function Card() {
     return (
         <>
             <main>
-            ola
+                ola
             </main>
 
 
