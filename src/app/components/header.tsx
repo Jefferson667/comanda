@@ -12,6 +12,8 @@ export default function Header() {
                     alt="error"
                 />
 
+                <a href="/comanda">test</a>
+
             </section>
             <h1>
                 SISTEMA BUFFET LIVRE NO ALMOÇO com carnes na brasa servidas na hora 🔥 Foundue na sobremesa 🤤 atendimento DOMINGO à SEXTA-FEIRA. Aos sábados FECHADO.
