@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <section className="flex justify-center">
                 <Image
-                    className="mt-4 space-x-2 hover:scale-[1.1] transition"
+                    className="mt-3 space-x-2 hover:scale-[1.1] transition"
                     width={150}
                     height={500}
                     src={"/don.jpg"}
