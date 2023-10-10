@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import Comanda from './components/comanda'
-import Pagina1 from './paginapricipal/page'
-import Header from './header/page'
-import Footer from './footer/page'
-import Cards from './card/page'
+import Header from "./components/header"
+import Pagina1 from "./components/paginaprincipal"
+import Cards from "./card/page"
+import Footer from "./components/footer"
+
+import Image from "next/image"
 
 export default function Home() {
   return (
