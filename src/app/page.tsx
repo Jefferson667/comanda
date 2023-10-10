@@ -1,6 +1,7 @@
+
 import Header from "./components/header"
-import Pagina1 from "./components/paginaprincipal"
-import Cards from "./card/page"
+import Bori from "./components/bori"
+import Cards from "./components/cards"
 import Footer from "./components/footer"
 
 import Image from "next/image"
@@ -8,9 +9,10 @@ import Image from "next/image"
 export default function Home() {
   return (
     <>
-      <title>Don ana</title>
+      <title>Don’Ana Restaurante e Churrascaria</title>
+
       <Header />
-      <Pagina1 />
+      <Bori />
       <Cards />
       <Footer />
 

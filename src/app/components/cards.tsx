@@ -8,16 +8,16 @@ export default function Cards() {
                 <Image
                     className="space-x-2 mt-1 hover:scale-[1.1] transition"
                     width={200}
-                    height={200}
+                    height={50}
                     src={"/cunha.jpeg"}
-                    alt="prato"
+                    alt="prato1"
                 />
                 <Image
                     className="space-x-2 mt-1 hover:scale-[1.1] transition"
                     width={200}
                     height={200}
                     src={"/paulo.jpeg"}
-                    alt="prato"
+                    alt="prato2"
                 />
 
 
@@ -26,7 +26,7 @@ export default function Cards() {
                     width={200}
                     height={200}
                     src={"/pratocunha.jpeg"}
-                    alt="prato"
+                    alt="prato3"
                 />
 
 
