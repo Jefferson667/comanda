@@ -1,4 +1,8 @@
+import Link from "next/link"
+
 import Image from "next/image"
+
+
 
 export default function Header() {
     return (
@@ -11,9 +15,11 @@ export default function Header() {
                     src={"/don.jpg"}
                     alt="error"
                 />
-
-                <a href="/comanda">test</a>
-
+                <section className="flex items-center ">
+                    <Link href='/marmitas'>
+                       peca sua marmita  marmitas
+                    </Link>
+                </section>
             </section>
             <h1>
                 SISTEMA BUFFET LIVRE NO ALMOÇO com carnes na brasa servidas na hora 🔥 Foundue na sobremesa 🤤 atendimento DOMINGO à SEXTA-FEIRA. Aos sábados FECHADO.

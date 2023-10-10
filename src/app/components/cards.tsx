@@ -28,8 +28,7 @@ export default function Cards() {
                     src={"/pratocunha.jpeg"}
                     alt="prato3"
                 />
-
-
+                
             </main>
 
 
