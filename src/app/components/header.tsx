@@ -9,17 +9,18 @@ export default function Header() {
         <>
             <section className="flex justify-center">
                 <Image
-                    className="mt-3 space-x-2 hover:scale-[1.1] transition"
+                    className=" mt-3 space-x-2 hover:scale-[1.1] transition"
                     width={150}
                     height={500}
                     src={"/don.jpg"}
                     alt="error"
                 />
-                <section className="flex items-center ">
+                <nav className="flex items-center ml-[100px]">
                     <Link href='/marmitas'>
-                       peca sua marmita  marmitas
+                        peça sua marmita
                     </Link>
-                </section>
+                </nav>
+
             </section>
             <h1>
                 SISTEMA BUFFET LIVRE NO ALMOÇO com carnes na brasa servidas na hora 🔥 Foundue na sobremesa 🤤 atendimento DOMINGO à SEXTA-FEIRA. Aos sábados FECHADO.
