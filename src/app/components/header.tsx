@@ -14,8 +14,12 @@ export default function Header() {
                         alt="error"
                     />
 
-                </header>
 
+                    <button className="flex items-center ml-2">
+                        <Link href={'marmitas'}>faca seu pedido aki</Link>
+                    </button>
+
+                </header>
 
             </main>
 

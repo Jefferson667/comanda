@@ -2,17 +2,29 @@ import Image from "next/image"
 
 export default function Marmitas11() {
     return (
-        <>
-            <h1>
-                <Image
-                    className="space-x-2 mt-1 hover:scale-[1.1] transition"
-                    width={200}
-                    height={50}
-                    src={"/cunha.jpeg"}
-                    alt="prato1"
-                />
-            </h1>
+        <main >
 
-        </>
+            <div className="flex">
+                <h1 className="flex ml-1 mt-1">
+                    <Image
+                        height={350}
+                        width={350}
+                        src={'/frango.webp'}
+                        alt="marmita de frango"
+                    />
+                </h1>
+
+                <h1 className="flex ml-1 mt-1">
+                    <Image
+                        height={350}
+                        width={350}
+                        src={'/carne.jpg'}
+                        alt="marmita de frango"
+                    />
+                </h1>
+            </div>
+            <button>finalizar pedido</button>
+            
+        </main>
     )
 }
