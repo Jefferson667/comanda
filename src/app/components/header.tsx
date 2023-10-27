@@ -1,30 +1,34 @@
-import Link from "next/link"
-
 import Image from "next/image"
-
-
+import Link from "next/link"
 
 export default function Header() {
     return (
         <>
-            <section className="flex justify-center">
-                <Image
-                    className=" mt-3 space-x-2 hover:scale-[1.1] transition"
-                    width={150}
-                    height={500}
-                    src={"/don.jpg"}
-                    alt="error"
-                />
-                <nav className="flex items-center ml-[100px]">
-                    <Link href='/marmitas'>
-                        peça sua marmita
-                    </Link>
-                </nav>
+            <main>
+                <header className="flex justify-between bg-gray-100">
 
-            </section>
-            <h1>
-                SISTEMA BUFFET LIVRE NO ALMOÇO com carnes na brasa servidas na hora 🔥 Foundue na sobremesa 🤤 atendimento DOMINGO à SEXTA-FEIRA. Aos sábados FECHADO.
-            </h1>
+                    <Image
+                        width={100}
+                        height={100}
+                        src="/don.jpg"
+                        alt="error"
+                    />
+
+                    <nav className="flex items-center mr-2  font-bold">
+                        <p>
+                           <Link href="marmitas">mm</Link> 
+                        </p>
+
+
+                    </nav>
+
+                </header>
+
+
+            </main>
+
+
+
 
         </>
     )
